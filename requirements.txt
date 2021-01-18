@@ -1,0 +1,15 @@
+click
+Flask
+Flask-Cors
+itsdangerous
+Jinja2
+MarkupSafe
+numpy
+pandas
+pip
+python-dateutil
+pytz
+setuptools
+six
+Werkzeug
+wheel
