@@ -40,5 +40,5 @@ def fetch_recos(locationId, roleId, departmentId, roundId):
 #     return data_dict
 
 
-
-app.run(host='0.0.0.0', port=13001, debug=True)
+if __name__=="__main__":
+    app.run(host='0.0.0.0', port=14001, debug=True)
