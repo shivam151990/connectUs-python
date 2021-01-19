@@ -41,4 +41,4 @@ def fetch_recos(locationId, roleId, departmentId, roundId):
 
 
 
-app.run()
+app.run(host='0.0.0.0', port=13001, debug=True)
