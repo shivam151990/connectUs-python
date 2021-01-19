@@ -1,5 +1,6 @@
 from flask import Flask, Response, jsonify, json, request
 from flask_cors import CORS
+import os
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
@@ -40,5 +41,8 @@ def fetch_recos(locationId, roleId, departmentId, roundId):
 #     return data_dict
 
 
+# if __name__=="__main__":
+# app.run(host='0.0.0.0',port=15000,debug=True)
+port = int(os.environ.get('PORT', 17003))
+app.run(host='0.0.0.0', port=port)
 
-app.run()
