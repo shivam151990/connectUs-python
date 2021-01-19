@@ -1,1 +1,1 @@
-gunicorn -b :5000 --access-logfile - --error-logfile - build:connectuspython
+gunicorn -b :5000 --access-logfile - --error-logfile - main:connectuspython
