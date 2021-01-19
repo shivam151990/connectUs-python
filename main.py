@@ -41,4 +41,4 @@ def fetch_recos(locationId, roleId, departmentId, roundId):
 
 
 # if __name__=="__main__":
-app.run(host='0.0.0.0', port=11001, debug=True)
+app.run(host='0.0.0.0', port=8080, debug=True)
